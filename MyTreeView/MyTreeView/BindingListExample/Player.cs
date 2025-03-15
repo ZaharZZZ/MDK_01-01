@@ -12,7 +12,5 @@ namespace BindingListExample
         public string login { get; set; }
         public string password { get; set; }
        
-
-
     }
 }
