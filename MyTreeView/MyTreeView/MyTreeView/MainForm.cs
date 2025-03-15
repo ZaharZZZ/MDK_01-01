@@ -15,25 +15,29 @@ namespace MyTreeView
 {
     public partial class MainForm : Form
     {
+        
         private List<TreeNodeModel> treeData_;
         private CarModel carModel_;
         private CarsDataModel carsDataModel_;
+        private BindingList<Car> InfoCars_;
+        
         
         public MainForm()
         {
             InitializeComponent();
 
+            InfoCars_ = new BindingList < Car > ();
             treeData_ = new List<TreeNodeModel>();
             carModel_ = new CarModel();
             carsDataModel_ = new CarsDataModel();
         }
-
+        
         private void MainForm_Load(object sender, EventArgs e)
         {            
-            carsDataGridView.Columns.Add("NameColumn", "Название");
-            carsDataGridView.Columns.Add("ReleaseDateColumn", "Дата выпуска");
-            carsDataGridView.Columns.Add("EngineCapacityColumn", "Объём двигателя");
-            carsDataGridView.Columns["EngineCapacityColumn"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            //carsDataGridView.Columns.Add("NameColumn", "Название");
+            //carsDataGridView.Columns.Add("ReleaseDateColumn", "Дата выпуска");
+            //carsDataGridView.Columns.Add("EngineCapacityColumn", "Объём двигателя");
+            //carsDataGridView.Columns["EngineCapacityColumn"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
 
             treeData_ = carsDataModel_.treeData;
             FillTreeNodeCollection(treeData_, carsTreeView.Nodes);
@@ -57,13 +61,17 @@ namespace MyTreeView
 
         private void TreeViewCar_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
         {
+
+
             if (e.Node.Nodes.Count ==0)
             {
                 Car cars = carModel_.GetExampleByName(e.Node.Text);
                 if (cars !=  null)
                 {
-                    object[] newRow = { cars.name, cars.releaseDate, cars.engineCapacity};
-                    carsDataGridView.Rows.Add(newRow);
+
+                    InfoCars_.Add(cars);
+                    //object[] newRow = { cars.name, cars.releaseDate, cars.engineCapacity};
+                    //carsDataGridView.Rows.Add(newRow);
                 }
             }
         }
