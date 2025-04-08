@@ -50,32 +50,30 @@ namespace LR3
 
             if (e.NewValue == CheckState.Checked)
             {
-                // Create NumericUpDown dynamically
+                // Create NumericUpDown 
                 NumericUpDown nud = new NumericUpDown();
                 nud.Name = numericUpDownName;
                 nud.Minimum = 0;
-                nud.Maximum = 100; // Set a reasonable maximum
-                nud.Value = 1; // Default quantity
+                nud.Maximum = 100; 
+                nud.Value = 1; //Нач занчение
                 nud.Width = 50;
 
-                // Calculate position (adjust as needed)
+                
                 int x = checkedListBoxMenuItems.Location.X + checkedListBoxMenuItems.Width + 10;
                 int y = checkedListBoxMenuItems.Location.Y + (e.Index * checkedListBoxMenuItems.ItemHeight);
                 nud.Location = new Point(x, y);
 
-                // Add to form's controls
                 this.Controls.Add(nud);
-                nud.BringToFront();  // Ensures it's visible
+                nud.BringToFront();  
 
             }
             else
             {
-                //Remove dynamically
                 NumericUpDown nudToRemove = this.Controls.Find(numericUpDownName, true).FirstOrDefault() as NumericUpDown;
                 if (nudToRemove != null)
                 {
                     this.Controls.Remove(nudToRemove);
-                    nudToRemove.Dispose(); //Important to release resources
+                    nudToRemove.Dispose(); 
                 }
             }
         }
@@ -92,7 +90,7 @@ namespace LR3
 
                 // Получаем количество из соответствующего NumericUpDown (создадим динамически)
                 // Имя NumericUpDown формируется на основе имени элемента меню в CheckListBox
-                string numericUpDownName = "numericUpDown_" + selectedItem.Replace(" ", "_"); // Replace spaces with underscores
+                string numericUpDownName = "numericUpDown_" + selectedItem.Replace(" ", "_"); 
 
                 NumericUpDown nud = this.Controls.Find(numericUpDownName, true).FirstOrDefault() as NumericUpDown;
                 if (nud != null)
@@ -106,7 +104,7 @@ namespace LR3
                 }
                 else
                 {
-                    // Если NumericUpDown не найден, выводим ошибку (очень маловероятно, но все же)
+                    // Если NumericUpDown не найден, выводим ошибку 
                     MessageBox.Show($"Не найдено поле для ввода количества для блюда: {selectedItem}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return; //Прерываем обработку заказа
                 }
