@@ -68,7 +68,10 @@
             // 
             // textBoxOrder
             // 
-            this.textBoxOrder.Dock = System.Windows.Forms.DockStyle.Right;
+            this.textBoxOrder.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxOrder.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxOrder.Location = new System.Drawing.Point(422, 0);
             this.textBoxOrder.Multiline = true;
             this.textBoxOrder.Name = "textBoxOrder";

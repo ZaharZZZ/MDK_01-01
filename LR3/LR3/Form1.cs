@@ -26,9 +26,12 @@ namespace LR3
         public Form1()
         {
             InitializeComponent();
-            comboBoxMenuGroups.Items.AddRange(menu.Keys.ToArray());
-        }
+            comboBoxMenuGroups.Items.AddRange(menu.Keys.ToArray()); //добавляет элементы в комбобокс (элемент управления для выбора) с именем comboBoxMenuGroups
+                                                                    //addRange(...) добавляет массив ключей заполняя комбобокс элементами.
+                                                                    //ToArray() преобразует эти ключи в массив.
 
+        }
+        //отвечает за заполнение списка блюд
         private void comboBoxMenuGroups_SelectedIndexChanged(object sender, EventArgs e)
         {
             checkedListBoxMenuItems.Items.Clear();
@@ -42,7 +45,7 @@ namespace LR3
                 checkedListBoxMenuItems.Items.Add(item);
             }
         }
-
+        //отвечает за создание и удаление элементов управления NumericUpDown
         private void checkedListBoxMenuItems_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             string itemName = checkedListBoxMenuItems.Items[e.Index].ToString();
