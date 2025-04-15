@@ -5,3 +5,10 @@ D:\П-30\LR2\Veshi\Veshi\obj\Debug\Veshi.csproj.AssemblyReference.cache
 D:\П-30\LR2\Veshi\Veshi\obj\Debug\Veshi.csproj.CoreCompileInputs.cache
 D:\П-30\LR2\Veshi\Veshi\obj\Debug\Veshi.exe
 D:\П-30\LR2\Veshi\Veshi\obj\Debug\Veshi.pdb
+D:\П-30\LR\LR2\Veshi\Veshi\bin\Debug\Veshi.exe.config
+D:\П-30\LR\LR2\Veshi\Veshi\bin\Debug\Veshi.exe
+D:\П-30\LR\LR2\Veshi\Veshi\bin\Debug\Veshi.pdb
+D:\П-30\LR\LR2\Veshi\Veshi\obj\Debug\Veshi.csproj.AssemblyReference.cache
+D:\П-30\LR\LR2\Veshi\Veshi\obj\Debug\Veshi.csproj.CoreCompileInputs.cache
+D:\П-30\LR\LR2\Veshi\Veshi\obj\Debug\Veshi.exe
+D:\П-30\LR\LR2\Veshi\Veshi\obj\Debug\Veshi.pdb

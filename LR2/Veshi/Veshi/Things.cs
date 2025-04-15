@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Veshi
 {
+    //Класс служит для представления информации об одном товаре
+    //Он содержит всю необходимую информацию для описания товара: его название, цену, количество и вид.
     public class Things
     {
         private string Name_;
