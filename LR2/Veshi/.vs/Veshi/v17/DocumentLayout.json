@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\veshi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|d:\\\u043F-30\\\u043C\u0434\u043A 01.01\\lr\\lr2\\veshi\\veshi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|d:\\\u043F-30\\\u043C\u0434\u043A 01.01\\lr\\lr2\\veshi\\veshi\\salelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\veshi\\salelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\salelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -42,8 +46,7 @@
               "RelativeToolTip": "Veshi\\SaleList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T05:45:30.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T05:45:30.577Z"
             },
             {
               "$type": "Document",
@@ -89,10 +92,20 @@
               "RelativeDocumentMoniker": "Veshi\\Program.cs",
               "ToolTip": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Program.cs*",
               "RelativeToolTip": "Veshi\\Program.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T05:26:18.472Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
