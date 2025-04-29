@@ -42,7 +42,7 @@ namespace Veshi
             Console.WriteLine($"Общая выручка: {totalRevenue}");
         }
         //Метод для вывода отчета по продажам, отфильтрованным по “виду” одежды
-        public void PrintReportPerGenre()
+        public void PrintReportPerVid()
         {
             //Вывод списка доступных видов одежды
             Console.WriteLine("\nДоступные виды одежды:");

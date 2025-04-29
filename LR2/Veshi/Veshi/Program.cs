@@ -64,7 +64,7 @@ namespace Veshi
                         break;
                     case 2:
                         Console.Clear();
-                        report.PrintReportPerGenre();
+                        report.PrintReportPerVid();
                         break;
                     case 3:
                         continueRunning = false;
