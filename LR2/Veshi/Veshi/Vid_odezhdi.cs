@@ -8,12 +8,12 @@ namespace Veshi
 {
     public enum  Vid_odezhdi
     {
-        Zadidas = 1,
-        Zike,
-        Zoika_gobana,
-        Zuma,
-        Zalenciaga,
-        Ztone_Zisland,
+        Джинсы = 1,
+        Сумка,
+        Кепка,
+        Футболка,
+        Шорты,
+        Кофта,
     }
 }
 

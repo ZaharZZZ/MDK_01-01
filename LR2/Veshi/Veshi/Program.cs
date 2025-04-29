@@ -23,41 +23,60 @@ namespace Veshi
             //   * бренд (из перечисления Vid_odezhdi)
 
             
-            report.AddSale(new Sales(1, new Things("Сумка", 1500, 12, Vid_odezhdi.Zadidas)));
-            report.AddSale(new Sales(1, new Things("Футболка", 1000, 6, Vid_odezhdi.Zike)));
-            report.AddSale(new Sales(1, new Things("джинсы", 2000, 8, Vid_odezhdi.Zadidas)));
-            report.AddSale(new Sales(1, new Things("Штаны", 2000, 5, Vid_odezhdi.Zuma)));
-            report.AddSale(new Sales(1, new Things("джемпер", 3550, 13, Vid_odezhdi.Zalenciaga)));
-            report.AddSale(new Sales(1, new Things("кепка", 3500, 9, Vid_odezhdi.Zuma)));
+            report.AddSale(new Sales(1, new Things("Puma", 1500, 12, Vid_odezhdi.Сумка)));
+            report.AddSale(new Sales(1, new Things("Addidas", 1000, 6, Vid_odezhdi.Футболка)));
+            report.AddSale(new Sales(1, new Things("Nike", 2000, 8, Vid_odezhdi.Сумка)));
+            report.AddSale(new Sales(1, new Things("Puma", 2000, 5, Vid_odezhdi.Футболка)));
+            report.AddSale(new Sales(1, new Things("Nike", 3550, 13, Vid_odezhdi.Кепка)));
+            report.AddSale(new Sales(1, new Things("Addidas", 3500, 9, Vid_odezhdi.Шорты)));
 
 
-            report.AddSale(new Sales(2, new Things("Штаны", 1000, 5, Vid_odezhdi.Zuma)));
-            report.AddSale(new Sales(2, new Things("джемпер", 350, 13, Vid_odezhdi.Zalenciaga)));
-            report.AddSale(new Sales(2, new Things("кепка", 1500, 9, Vid_odezhdi.Zuma)));
-            report.AddSale(new Sales(2, new Things("Сумка", 1500, 12, Vid_odezhdi.Zadidas)));
-            report.AddSale(new Sales(2, new Things("Футболка", 1900, 6, Vid_odezhdi.Zike)));
-            report.AddSale(new Sales(2, new Things("джинсы", 3000, 8, Vid_odezhdi.Zadidas)));
+            report.AddSale(new Sales(2, new Things("Nike", 1000, 5, Vid_odezhdi.Шорты)));
+            report.AddSale(new Sales(2, new Things("Puma", 350, 13, Vid_odezhdi.Сумка)));
+            report.AddSale(new Sales(2, new Things("Addidas", 1500, 9, Vid_odezhdi.Футболка)));
+            report.AddSale(new Sales(2, new Things("Nike", 1500, 12, Vid_odezhdi.Кофта)));
+            report.AddSale(new Sales(2, new Things("Nike", 1900, 6, Vid_odezhdi.Шорты)));
+            report.AddSale(new Sales(2, new Things("Addidas", 3000, 8, Vid_odezhdi.Кепка)));
 
             // Запрашиваем у пользователя выбор типа отчета
-            int reportType;
-            Console.WriteLine("Выберите вид отчёта (1 - весь, 2 - по видам): ");
-            reportType = Convert.ToInt32(Console.ReadLine());
+            bool continueRunning = true;
 
-            // В зависимости от выбора пользователя выводим соответствующий отчет
-            if (reportType == 1)
+            while (continueRunning)
             {
-                // Выводим полный отчет (все продажи)
-                report.PrintReportAll();
-            }
-            else if (reportType == 2)
-            {
-                // Выводим отчет, сгруппированный по видам одежды/брендам
-                report.PrintReportPerGenre();
-            }
-            else
-            {
-                // Обработка некорректного ввода
-                Console.WriteLine("Введено неверное значение");
+                Console.Clear(); // Очищаем консоль перед новым выбором
+                Console.WriteLine("Меню отчетов:");
+                Console.WriteLine("1 - Полный отчет");
+                Console.WriteLine("2 - Отчет по видам одежды");
+                Console.WriteLine("3 - Выход");
+                Console.Write("Выберите действие: ");
+
+                int choice;
+                while (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > 3)
+                {
+                    Console.Write("Неверный ввод. Пожалуйста, введите число от 1 до 3: ");
+                }
+
+                switch (choice)
+                {
+                    case 1:
+                        Console.Clear();
+                        report.PrintReportAll();
+                        break;
+                    case 2:
+                        Console.Clear();
+                        report.PrintReportPerGenre();
+                        break;
+                    case 3:
+                        continueRunning = false;
+                        Console.WriteLine("Программа завершена.");
+                        continue;
+                }
+
+                if (continueRunning)
+                {
+                    Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
+                    Console.ReadKey();
+                }
             }
         }
     }

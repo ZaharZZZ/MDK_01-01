@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\",
+  "WorkspaceRootPath": "C:\\\u041F-30\\LR\\LR2\\Veshi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|d:\\\u043F-30\\\u043C\u0434\u043A 01.01\\lr\\lr2\\veshi\\veshi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|c:\\\u043F-30\\lr\\lr2\\veshi\\veshi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\veshi\\salelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|C:\\\u041F-30\\LR\\LR2\\Veshi\\veshi\\salelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\salelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\veshi\\things.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|C:\\\u041F-30\\LR\\LR2\\Veshi\\veshi\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|C:\\\u041F-30\\LR\\LR2\\Veshi\\veshi\\things.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\things.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\veshi\\vid_odezhdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|C:\\\u041F-30\\LR\\LR2\\Veshi\\veshi\\vid_odezhdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\vid_odezhdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\veshi\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8481126A-5A05-4116-AB00-C95838A85B2E}|Veshi\\Veshi.csproj|solutionrelative:veshi\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,59 +40,63 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SaleList.cs",
-              "DocumentMoniker": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\SaleList.cs",
+              "DocumentMoniker": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\SaleList.cs",
               "RelativeDocumentMoniker": "Veshi\\SaleList.cs",
-              "ToolTip": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\SaleList.cs",
+              "ToolTip": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\SaleList.cs",
               "RelativeToolTip": "Veshi\\SaleList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwFwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T05:45:30.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Sales.cs",
-              "DocumentMoniker": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Sales.cs",
-              "RelativeDocumentMoniker": "Veshi\\Sales.cs",
-              "ToolTip": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Sales.cs",
-              "RelativeToolTip": "Veshi\\Sales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T05:40:54.743Z"
+              "WhenOpened": "2025-03-11T05:45:30.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Things.cs",
-              "DocumentMoniker": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Things.cs",
-              "RelativeDocumentMoniker": "Veshi\\Things.cs",
-              "ToolTip": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Things.cs",
-              "RelativeToolTip": "Veshi\\Things.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAABXAAAAAAAAAA==",
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Sales.cs",
+              "RelativeDocumentMoniker": "Veshi\\Sales.cs",
+              "ToolTip": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Sales.cs",
+              "RelativeToolTip": "Veshi\\Sales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T05:31:00.732Z"
+              "WhenOpened": "2025-03-11T05:40:54.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Vid_odezhdi.cs",
-              "DocumentMoniker": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Vid_odezhdi.cs",
-              "RelativeDocumentMoniker": "Veshi\\Vid_odezhdi.cs",
-              "ToolTip": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Vid_odezhdi.cs",
-              "RelativeToolTip": "Veshi\\Vid_odezhdi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAVAAAAAAAAAA==",
+              "Title": "Things.cs",
+              "DocumentMoniker": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Things.cs",
+              "RelativeDocumentMoniker": "Veshi\\Things.cs",
+              "ToolTip": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Things.cs",
+              "RelativeToolTip": "Veshi\\Things.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T05:28:46.293Z"
+              "WhenOpened": "2025-03-11T05:31:00.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vid_odezhdi.cs",
+              "DocumentMoniker": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Vid_odezhdi.cs",
+              "RelativeDocumentMoniker": "Veshi\\Vid_odezhdi.cs",
+              "ToolTip": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Vid_odezhdi.cs",
+              "RelativeToolTip": "Veshi\\Vid_odezhdi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T05:28:46.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Program.cs",
+              "DocumentMoniker": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Program.cs",
               "RelativeDocumentMoniker": "Veshi\\Program.cs",
-              "ToolTip": "D:\\\u041F-30\\\u041C\u0414\u041A 01.01\\lr\\LR2\\Veshi\\Veshi\\Program.cs*",
+              "ToolTip": "C:\\\u041F-30\\LR\\LR2\\Veshi\\Veshi\\Program.cs*",
               "RelativeToolTip": "Veshi\\Program.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwBoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwE8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T05:26:18.472Z",
               "EditorCaption": ""

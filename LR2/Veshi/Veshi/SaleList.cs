@@ -44,13 +44,31 @@ namespace Veshi
         //Метод для вывода отчета по продажам, отфильтрованным по “виду” одежды
         public void PrintReportPerGenre()
         {
-            //Метод для вывода отчета по продажам, отфильтрованным по “виду” одежды
-            string vid;
-            //Вывод запроса пользователю на ввод “вида”.
-            Console.WriteLine("Введите вид: ");
-            vid = Console.ReadLine();
+            //Вывод списка доступных видов одежды
+            Console.WriteLine("\nДоступные виды одежды:");
+            int index = 1;
+            foreach (var name in Enum.GetNames(typeof(Vid_odezhdi)))
+            {
+                Console.WriteLine($"{index++}. {name}");
+            }
+
+            //Запрос выбора вида одежды
+            Console.WriteLine("\nВведите номер вида одежды для отчета:");
+            int selectedIndex;
+            while (!int.TryParse(Console.ReadLine(), out selectedIndex) || selectedIndex < 1 || selectedIndex > Enum.GetNames(typeof(Vid_odezhdi)).Length)
+            {
+                Console.WriteLine("Неверный ввод. Пожалуйста, введите номер из списка:");
+            }
+
+            //Получение выбранного вида одежды
+            Vid_odezhdi selectedVid = (Vid_odezhdi)selectedIndex;
+            string vid = selectedVid.ToString();
+
             //Инициализация переменной для хранения общей выручки для выбранного “вида”
             double totalRevenue = 0;
+            bool found = false;
+
+            Console.WriteLine($"\nОтчет по виду: {vid}");
             foreach (var sale_ in Sale)
             {
                 //Получение информации об одежде из текущей продажи.
@@ -58,18 +76,20 @@ namespace Veshi
                 //Сравнение введенного пользователем “вида” () с “видом” текущей одежды
                 if (vid == Convert.ToString(thing.GetVid()))
                 {
+                    found = true;
                     //Вывод информации о текущей продаже в консоль, если “вид” соответствует введенному.
-                    Console.WriteLine($"День: {sale_.GetDay()}, Название одежды: {thing.GetName()}, Жанр: {thing.GetVid()}, Цена: {thing.GetPrice()}, Количество: {thing.GetQuantity()}, Выручка с одежды: {thing.GetPrice() * thing.GetQuantity()}");
+                    Console.WriteLine($"День: {sale_.GetDay()}, Название одежды: {thing.GetName()}, Вид: {thing.GetVid()}, Цена: {thing.GetPrice()}, Количество: {thing.GetQuantity()}, Выручка с одежды: {thing.GetPrice() * thing.GetQuantity()}");
                     totalRevenue += thing.GetQuantity() * thing.GetPrice();
                 }
             }
-            if (totalRevenue != 0)
+
+            if (found)
             {
-                Console.WriteLine($"Общая выручка: {totalRevenue}");
+                Console.WriteLine($"\nОбщая выручка по виду {vid}: {totalRevenue}");
             }
-            if (totalRevenue == 0)
+            else
             {
-                Console.WriteLine("Выручка по виду нулевая/Данного вида не существует");
+                Console.WriteLine("Выручка по выбранному виду нулевая");
             }
         }
     }
