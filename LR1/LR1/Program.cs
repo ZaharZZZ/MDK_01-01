@@ -147,7 +147,6 @@ namespace LR1
             client1.Services.Add("Маникюр");
             client1.Services.Add("Стрижка");
             client1.Services.Add("Стрижка");
-
             Client client2 = new Client("Петрова Анна");
             client2.Services.Add("Маникюр");
             client2.Services.Add("Педикюр");
